@@ -1,0 +1,27 @@
+using System;
+using String;
+
+class Main {
+
+	class Pessoa{
+	
+		private String nome;	
+
+		public String mudarNome();
+
+		public Pessoa( String valor ){
+			
+			set{
+				this.nome = valor;
+			}		
+	
+		}
+	
+	}
+
+
+
+	public main() {
+		
+	}
+}

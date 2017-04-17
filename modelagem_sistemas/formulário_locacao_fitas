@@ -1,0 +1,23 @@
+
+Fluxo normal:
+	1. Atendente procura na lista de usuários pelo nome ou código
+	2. Atendente verifica se existe o usuário com o nome/código dado
+	3. Atendente seleciona usuário
+	4. Sistema retorna as pendências do usuário
+	5. Atendente verifica se existem pendências
+	6. Atendente registra a locação
+	7. Atendente registra quais cópias foram locadas
+	8. Sistema salva modificações
+
+Fluxo alternativo:
+	1. Atendente procura na lista de usuários pelo nome ou código
+	2. Atendente verifica se existe o usuário com o nome/código dado
+	3. Atendente cancela locação
+
+Fluxo alternativo:
+	1. Atendente procura na lista de usuários pelo nome ou código
+	2. Atendente verifica se existe o usuário com o nome/código dado
+	3. Atendente seleciona usuário
+	4. Sistema retorna as pendências do usuário
+	5. Atendente verifica se existem pendências
+	6. Atendente cancela locação

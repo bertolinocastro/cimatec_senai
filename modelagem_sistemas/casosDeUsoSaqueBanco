@@ -1,0 +1,10 @@
+Considere a seguinte narrativa do caso de uso Realizar Saque. 
+
+A operação de um caixa eletrônico tem início a partir de uma sessão em que o cliente seleciona a opção de realizar saque. 
+O cliente então escolhe uma quantia a ser retirada, a partir de um conjunto de opções de quantia disponíveis. 
+
+O sistema verifica se o caixa eletrônico tem saldo e notas adequadas para compor o valor solicitado (Ex. R$ 50,00 não podem ser fornecidos se só houver três notas de R$ 20,00). 
+
+Caso tenha notas adequadas, os números da conta e da agência do cliente são enviados ao banco para determinar se existe saldo suficiente na conta do Cliente. 
+
+Se não houver saldo, uma mensagem adequada é reportada e a operação finalizada. Havendo saldo, o sistema inicia uma transação de liberação da quantia desejada. Após a máquina liberar a quantia correspondente, o sistema  emite um recibo e a operação é finalizada. 

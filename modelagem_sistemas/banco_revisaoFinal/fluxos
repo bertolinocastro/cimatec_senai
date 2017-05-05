@@ -1,0 +1,31 @@
+Fluxo Normal:
+
+1.	O Cliente solicita o encerramento ao Funcionário
+2.	O Cliente informa suas credenciais
+3.	O Funcionário informa ao Sistema as credenciais do Cliente
+4.	O Sistema verifica se a conta existe
+	a.	O Sistema informa que a conta é inexistente
+	a.	O Sistema finaliza operação
+5.	O Sistema verifica se a senha é a da conta
+	a.	O Sistema informa que a senha não confere
+	a.	O Sistema finaliza operação
+6.	O Funcionário verifica o saldo da conta
+	a.	O Funcionário informa débito na conta
+	a.	O Funcionário finaliza operação caso o cliente não pague
+7.	O Funcionário saca todo o dinheiro da conta
+8.	O Sistema registra o saque no histórico das movimentações
+9.	O Sistema informa o saldo final ao Funcionário
+10.	O Funcionário checa se o saldo final é zero
+	a.	O Sistema informa erro ao Funcionário
+	a.	O Sistema finaliza operação
+11.	O Funcionário confirma o encerramento da conta
+12.	O Sistema certifica se existe uma única conta associada ao Usuário
+13.	O Sistema altera o cadastro do Usuário para "Inativo"
+14.	O Sistema retorna zero em caso de sucesso
+15.	O Sistema emite um aviso de sucesso no encerramento ao Funcionário
+16.	O Sistema finaliza a operação
+
+
+
+
+

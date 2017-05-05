@@ -1,0 +1,36 @@
+1.  Usuário seleciona cidade de origem
+	1.a Usuário não econtra cidade de origem da sua escolha
+	1.a Sistema finaliza operação
+2.  Usuário seleciona aeroporto de origem
+	2.a Usuário não econtra aeroporto de origem da sua escolha
+	2.a Sistema finaliza operação
+3.  Usuário seleciona cidade de destino
+	3.a Usuário não econtra cidade de destino da sua escolha
+	3.a Sistema finaliza operação
+4.  Usuário seleciona aeroporto de destino
+	4.a Usuário não econtra aeroporto de destino da sua escolha
+	4.a Sistema finaliza operação
+5.  Sistema expõe a lista de vôos disponíveis com base na escolha do usuário
+	5.a Usuário não encontra vôos à sua escolha
+	5.a Sistema finaliza operação
+	5.b Sistema não encontra combinação de vôos disponíveis para os parâmetros escolhidos
+	5.b Sistema finaliza operação
+6.  Usuário seleciona o vôo disponível
+7.  Usuário se identifica com seu registro
+	7.a Sistema não encontra registro do usuário no banco de dados
+	7.a Sistema avisa o usuário da falta de registro
+	7.a Usuário cria novo registro
+8.  Sistema expõe as formas de pagamentos referentes à passagem
+	8.a Usuário não encontra forma de pagamento da sua escolha
+	8.a Sistema finaliza operação
+9.  Usuário seleciona uma das formas de pagamento
+10. Sistema confirma o pagamento
+	10.a Sistema identifica que o pagamento não pôde ser efetuado
+	10.a Cliente reefetua o pagamento
+	10.a Sistema volta ao passo 10
+11. Sistema emite a passagem para o cliente
+	11.a Sistema finaliza operação
+
+
+
+

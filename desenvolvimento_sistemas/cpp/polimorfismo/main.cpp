@@ -2,7 +2,7 @@
 
 class Animal{
 	public:
-		virtual void som() ;
+		virtual void som() =0;
 };
 
 class Cachorro : public Animal{
@@ -17,8 +17,8 @@ class Gato : public Animal{
 
 int main(void){
 
-	Animal 	dog = Cachorro(),
-			cat = Gato();
+	Animal 	*dog = Cachorro(),
+			*cat = Gato();
 
 
 	
